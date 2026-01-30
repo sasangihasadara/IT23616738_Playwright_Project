@@ -189,8 +189,7 @@ test('Pos_Fun_0017 - Compliment sentence', async ({ page }) => {
   console.log(await page.locator('textarea').last().inputValue());
 });
 
-// ===================== POSITIVE UI TESTS =====================
-test('Pos_UI_0001 - Food request', async ({ page }) => {
+test('Pos_Fun_0018 - Food request', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
   const input = page.locator('textarea[placeholder="Input Your Singlish Text Here."]');
   await expect(input).toBeVisible();
@@ -201,7 +200,7 @@ test('Pos_UI_0001 - Food request', async ({ page }) => {
   console.log(await page.locator('textarea').last().inputValue());
 });
 
-test('Pos_UI_0002 - Help offer', async ({ page }) => {
+test('Pos_Fun_0019 - Help offer', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
   const input = page.locator('textarea[placeholder="Input Your Singlish Text Here."]');
   await expect(input).toBeVisible();
@@ -212,18 +211,7 @@ test('Pos_UI_0002 - Help offer', async ({ page }) => {
   console.log(await page.locator('textarea').last().inputValue());
 });
 
-test('Pos_UI_0003 - Help offer repeat', async ({ page }) => {
-  await page.goto('https://www.swifttranslator.com/');
-  const input = page.locator('textarea[placeholder="Input Your Singlish Text Here."]');
-  await expect(input).toBeVisible();
-
-  await input.fill('mama obata sahaya vennadha?');
-  await page.waitForTimeout(5000);
-
-  console.log(await page.locator('textarea').last().inputValue());
-});
-
-test('Pos_UI_0004 - Health question', async ({ page }) => {
+test('Pos_Fun_0020 - Help offer repeat', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
   const input = page.locator('textarea[placeholder="Input Your Singlish Text Here."]');
   await expect(input).toBeVisible();
@@ -234,7 +222,18 @@ test('Pos_UI_0004 - Health question', async ({ page }) => {
   console.log(await page.locator('textarea').last().inputValue());
 });
 
-test('Pos_UI_0005 - Travel sentence', async ({ page }) => {
+test('Pos_Fun_0021 - Health question', async ({ page }) => {
+  await page.goto('https://www.swifttranslator.com/');
+  const input = page.locator('textarea[placeholder="Input Your Singlish Text Here."]');
+  await expect(input).toBeVisible();
+
+  await input.fill('oyaagee saepa saniipa kohomadha?');
+  await page.waitForTimeout(5000);
+
+  console.log(await page.locator('textarea').last().inputValue());
+});
+
+test('Pos_Fun_0022 - Travel sentence', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
   const input = page.locator('textarea[placeholder="Input Your Singlish Text Here."]');
   await expect(input).toBeVisible();
@@ -245,7 +244,7 @@ test('Pos_UI_0005 - Travel sentence', async ({ page }) => {
   console.log(await page.locator('textarea').last().inputValue());
 });
 
-test('Pos_UI_0006 - Joined sentence', async ({ page }) => {
+test('Pos_Fun_0023 - Joined sentence', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
   const input = page.locator('textarea[placeholder="Input Your Singlish Text Here."]');
   await expect(input).toBeVisible();
@@ -256,7 +255,7 @@ test('Pos_UI_0006 - Joined sentence', async ({ page }) => {
   console.log(await page.locator('textarea').last().inputValue());
 });
 
-test('Pos_UI_0007 - Meeting time', async ({ page }) => {
+test('Pos_Fun_0024 - Meeting time', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
   const input = page.locator('textarea[placeholder="Input Your Singlish Text Here."]');
   await expect(input).toBeVisible();
@@ -267,7 +266,7 @@ test('Pos_UI_0007 - Meeting time', async ({ page }) => {
   console.log(await page.locator('textarea').last().inputValue());
 });
 
-test('Pos_UI_0008 - Invitation', async ({ page }) => {
+test('Pos_UI_0001 - Invitation', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
   const input = page.locator('textarea[placeholder="Input Your Singlish Text Here."]');
   await expect(input).toBeVisible();
