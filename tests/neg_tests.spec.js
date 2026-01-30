@@ -8,6 +8,7 @@ test('Neg_Fun_0001 - Joined words without spaces', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
   const input = page.locator('textarea[placeholder="Input Your Singlish Text Here."]');
   await expect(input).toBeVisible();
+  
 
   await input.fill('mamagedharayanavaa');
   await page.waitForTimeout(5000);

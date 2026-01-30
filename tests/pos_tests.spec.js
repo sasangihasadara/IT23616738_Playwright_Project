@@ -8,6 +8,7 @@ test('Pos_Fun_0001 - Health inquiry sentence', async ({ page }) => {
 
   await input.fill('Oyaage saepa saniipa kohamadha?');
   await page.waitForTimeout(5000);
+  
 
   console.log(await page.locator('textarea').last().inputValue());
 });
