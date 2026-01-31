@@ -127,6 +127,5 @@ Test cases were designed based on:
 
  🔗 GitHub Repository
 
-[https://github.com/sasangihasadara/IT23616738_Playwright_Project]
-
+(https://github.com/sasangihasadara/IT23616738_Playwright_Project)
 
