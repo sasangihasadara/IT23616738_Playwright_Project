@@ -1,4 +1,3 @@
-
 Singlish to Sinhala Translator Testing
 Module: IT3040 – ITPM  
 Assignment:Assignment 1  
@@ -126,8 +125,8 @@ Test cases were designed based on:
 - Output updates in real-time  
 - Formatting is preserved correctly  
 
- 🔗 GitHub Repositor
-[https://github.com/sasangihasadara/IT23616738_Playwright_Project]
+ 🔗 GitHub Repository
 
+[https://github.com/sasangihasadara/IT23616738_Playwright_Project]
 
 
