@@ -5,7 +5,7 @@ Student Name:RANASIGHA R.A.S.H.
 Registration No: [IT23616738]  
 Year: Year 3  
 
-📌 Project Overview
+ Project Overview
 
 This project contains automated functional and UI test cases for the SwiftTranslator (Singlish to Sinhala) web application.
 
@@ -18,23 +18,23 @@ The objectives of this project are to:
 
 All test scenarios are automated using Playwright.
 
-🌐 System Under Test (SUT)
+System Under Test (SUT)
 
 **Swift Translator – Singlish to Sinhala Converter**  
 https://www.swifttranslator.com/
 
 This application converts Singlish text into Sinhala in real-time.
 
-🧪 Testing Scope
+ Testing Scope
 
- ✅ Covered Areas
+  Covered Areas
 - Functional testing  
 - UI testing  
 - Real-time conversion validation  
 - Accuracy testing  
 - Robustness testing   
 
-📂 Project Structure
+Project Structure
 
 IT23616738_Playwright_Project/
 
@@ -54,9 +54,9 @@ IT23616738_Playwright_Project/
 - VS Code  
 - GitHub  
 
-🚀 Setup Instructions
+ Setup Instructions
 
-1️⃣ Install Node.js
+ 1. Install Node.js
 Download from: https://nodejs.org/
 
 Check installation:
@@ -64,13 +64,13 @@ Check installation:
 node -v  
 npm -v  
 
- 2️⃣ Install Dependencies
+ 2. Install Dependencies
 
 Open the project folder and run:
 
 npm install
 
-3️⃣ Install Playwright Browsers
+3. Install Playwright Browsers
 
 npx playwright install
 
@@ -85,9 +85,9 @@ npx playwright test --headed
 # Run only Chromium
 npx playwright test --project=chromium
 
- 📊 Test Coverage
+  Test Coverage
 
- ✔ Positive Functional Tests
+  Positive Functional Tests
 - Simple, compound, and complex sentences  
 - Questions and commands  
 - Tense variations  
@@ -96,7 +96,7 @@ npx playwright test --project=chromium
 - Names and places  
 - Punctuation and numbers  
 
-❌ Negative Functional Tests
+Negative Functional Tests
 - Typographical errors  
 - Slang inputs  
 - Long inputs  
@@ -107,7 +107,7 @@ npx playwright test --project=chromium
 - Input field visibility  
 - Clear input behavior  
 
-📈 Test Design Strategy
+Test Design Strategy
 
 Test cases were designed based on:
 
@@ -118,7 +118,7 @@ Test cases were designed based on:
 - Robustness validation  
 - Formatting preservation  
 
- ✅ Expected Results
+  Expected Results
 
 - Correct Singlish produces accurate Sinhala  
 - English technical terms remain unchanged  
